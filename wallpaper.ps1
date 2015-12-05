@@ -29,7 +29,7 @@ namespace Wallpaper
               key.SetValue(@"TileWallpaper", "0") ;
               break;
            case Style.Center :
-              key.SetValue(@"WallpaperStyle", "1") ;
+              key.SetValue(@"WallpaperStyle", "0") ;
               key.SetValue(@"TileWallpaper", "0") ;
               break;
            case Style.Tile :
