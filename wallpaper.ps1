@@ -45,7 +45,7 @@ namespace Wallpaper
 }
 "@
 
-cmdlet Set-Wallpaper {
+function Set-Wallpaper {
 Param(
    [Parameter(Position=0, Mandatory=$true, ValueFromPipelineByPropertyName=$true)]
    [Alias("FullName")]
