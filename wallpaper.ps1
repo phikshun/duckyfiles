@@ -58,3 +58,6 @@ Param(
 )
    [Wallpaper.Setter]::SetWallpaper( (Convert-Path $Path), $Style )
 }
+
+(New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/phikshun/duckyfiles/master/lock-your-computer.jpg", "$env:USERPROFILE\Downloads\lock.jpg")
+Set-Wallpaper "$env:USERPROFILE\Downloads\lock.jpg" Center
